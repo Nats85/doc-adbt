@@ -11,19 +11,19 @@ El esquema de creación y actualización de la base de datos se realiza a travé
 Para descargar paquetes siga los siguientes pasos:
 
 1. En la parte superior de la pantalla, seleccione el proveedor de base de datos. Las opciones son:
-   •	SqlServer
-   •	Oracle
+ •	SqlServer
+ •	Oracle
 
 2.	Seleccione el tipo de descarga. Las opciones son:
-   •	Incremental: obtiene los paquetes que hacen falta (nuevas versiones) o los que no estén disponibles en la ubicación donde se almacenan.
-   •	Total: sobrescribe los archivos existentes.
+ •	Incremental: obtiene los paquetes que hacen falta (nuevas versiones) o los que no estén disponibles en la ubicación donde se almacenan.
+ •	Total: sobrescribe los archivos existentes.
 
 3.	Seleccione el origen de los paquetes. Las opciones son:
-   •	Remote: la aplicación descarga los paquetes directamente de los servidores de Aranda. Si por políticas de red se requiere pasar por un proxy para tener salida a internet, haga clic en el botón Configure y registre la información del proxy.
+ •	Remote: la aplicación descarga los paquetes directamente de los servidores de Aranda. Si por políticas de red se requiere pasar por un proxy para tener salida a internet, haga clic en el botón Configure y registre la información del proxy.
 
 ![]({{ site.baseurl }}/assets/images/paquetes 2.png)
 
-   •	FileSystem: el usuario descarga manualmente los paquetes según sean para Oracle o SQL desde la ruta http://download.arandasoft.com/ADBT/V9/ y los guarda localmente dentro de una carpeta que debe llamarse SQL u ORACLE según corresponda.
+ •	FileSystem: el usuario descarga manualmente los paquetes según sean para Oracle o SQL desde la ruta http://download.arandasoft.com/ADBT/V9/ y los guarda localmente dentro de una carpeta que debe llamarse SQL u ORACLE según corresponda.
 Una vez descargados, usando el botón Browse (explorar), indique la ruta en donde se hizo la descarga.
 
 4.	Finalmente haga clic en el botón Download (descargar) para iniciar la descarga.
